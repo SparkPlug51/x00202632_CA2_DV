@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#hero">Niks Paulis | Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="components.html">Components</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="d-flex align-items-center justify-content-center text-center">
+        <div class="glass-card p-4 p-md-5">
+            <img src="assets/img/profile.png" alt="Profile Photo" class="rounded-circle mb-3 hero-img">
+            <h1 class="mb-1">Niks Paulis</h1>
+            <p class="lead mb-3">Cloud Computing Student</p>
+            <p class="mb-4">Final-year Cloud Computing student focused on virtualization, backend development, and designing resilient cloud-based systems.</p>
+            <a href="#projects" class="btn btn-outline-light me-2 mb-2">View Projects</a>
+            <a href="#contact" class="btn btn-light mb-2">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <h2 class="mb-4">About Me</h2>
+                <div class="row g-4">
+                    <div class="col-md-8">
+                        <p>
+                            Final-year Cloud Computing student with a passion for virtualization, backend development, and exploring how AI can solve real-world challenges.
+                        </p>
+                        <p>
+                            I enjoy building scalable systems, automating workflows, and learning new technologies that make infrastructure smarter and more efficient.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Location:</strong> Dublin, Ireland</li>
+                            <li><strong>Email:</strong> nikspaulis@gmail.com</li>
+                            <li><strong>Degree:</strong> BSc (Hons) in Cloud Computing</li>
+                            <li><strong>Graduation:</strong> 2026</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <h2 class="mb-4">Education</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5>BSc (Hons) in Cloud Computing</h5>
+                        <p class="mb-1">TUDublin Tallaght, 2022 – 2026</p>
+                        <p>Main areas of study include: Virtualization, Cloud Infrastructure, Networking, Backend Development, and DevOps practices.</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h6>Module Performance | GPA by Year</h6>
+                        <table class="table table-sm table-borderless mb-0">
+                            <tbody>
+                                <tr><td>Year 1</td><td class="text-end">2.40</td></tr>
+                                <tr><td>Year 2</td><td class="text-end">2.27</td></tr>
+                                <tr><td>Year 3</td><td class="text-end">2.60</td></tr>
+                                <tr><td>Year 4</td><td class="text-end">TBD</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <h2 class="mb-4">Projects</h2>
+                <div class="row g-4">
+
+                    <!-- Project 1 -->
+                    <div class="col-md-4">
+                        <div class="glass-card-inner p-3 h-100 d-flex flex-column">
+                            <p class="small mb-1">2nd Year Project</p>
+                            <h5 class="mb-2">Electric Vehicle Charging Network</h5>
+                            <p class="small flex-grow-1">A team project in 2nd Year of college.</p>
+                            <button type="button" class="btn btn-outline-light btn-sm mt-2"
+                                    data-bs-toggle="modal" data-bs-target="#project1Modal">
+                                View details
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-md-4">
+                        <div class="glass-card-inner p-3 h-100 d-flex flex-column">
+                            <p class="small mb-1">Internship</p>
+                            <h5 class="mb-2">T-Pro Course Remake</h5>
+                            <p class="small flex-grow-1">Re-making of a T-Pro course for Hospital Staff.</p>
+                            <button type="button" class="btn btn-outline-light btn-sm mt-2"
+                                    data-bs-toggle="modal" data-bs-target="#project2Modal">
+                                View details
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-md-4">
+                        <div class="glass-card-inner p-3 h-100 d-flex flex-column">
+                            <p class="small mb-1">4th Year Project</p>
+                            <h5 class="mb-2">Disaster Recovery</h5>
+                            <p class="small flex-grow-1">Individual project for 4th year based on 3 Disaster Recovery models.</p>
+                            <button type="button" class="btn btn-outline-light btn-sm mt-2"
+                                    data-bs-toggle="modal" data-bs-target="#project3Modal">
+                                View details
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <h2 class="mb-4">Work Placement & Experience</h2>
+
+                <ul class="list-group list-group-flush glass-list">
+
+                    <!-- IT Internship -->
+                    <li class="list-group-item">
+                        <h5 class="mb-1">IT Internship</h5>
+                        <p class="mb-1">
+                            <strong>Tallaght University Hospital</strong> · Dublin, Ireland · 02/2025 – 09/2025
+                        </p>
+                        <ul class="small mb-0">
+                            <li>Contributed to GO-LIVE 2.0 for EPR system</li>
+                            <li>Contributed to the redevelopment of a T-Pro training course for hospital staff, creating instructional videos and reorganizing course materials in Moodle.</li>
+                            <li>Assisted with ticket management by logging, tracking, and closing support requests in line with hospital procedures.</li>
+                            <li>Assisted hospital staff with hardware and software troubleshooting, including resolving login issues, hardware faults, and system configuration problems.</li>
+                            <li>Supported deployment and setup of new devices, ensuring correct configuration and user accessibility.</li>
+                            <li>Adapted to a fast-paced healthcare environment, prioritizing tasks based on urgency and patient-care impact.</li>
+                        </ul>
+                    </li>
+
+                    <!-- Construction Worker -->
+                    <li class="list-group-item">
+                        <h5 class="mb-1">Construction Worker</h5>
+                        <p class="mb-1">
+                            <strong>SIA "Cabin Team"</strong> · Latvia · 05/2023 – 09/2023
+                        </p>
+                        <ul class="small mb-0">
+                            <li>Collaborated with a team to execute construction projects efficiently.</li>
+                            <li>Developed strong communication and teamwork skills while coordinating with supervisors.</li>
+                        </ul>
+                    </li>
+
+                    <!-- Retail Worker -->
+                    <li class="list-group-item">
+                        <h5 class="mb-1">Retail Worker</h5>
+                        <p class="mb-1">
+                            <strong>Tesco</strong> · Dublin, Ireland · 10/2018 – 03/2019
+                        </p>
+                        <ul class="small mb-0">
+                            <li>Enhanced communication skills through daily customer interactions.</li>
+                            <li>Supported store operations by performing maintenance and stock replenishment.</li>
+                        </ul>
+                    </li>
+
+                    <!-- Volunteer Worker -->
+                    <li class="list-group-item">
+                        <h5 class="mb-1">Volunteer Social Worker</h5>
+                        <p class="mb-1">
+                            <strong>DSPCA</strong> · Dublin, Ireland · 10/2018 – 04/2019
+                        </p>
+                        <ul class="small mb-0">
+                            <li>Assisted in various animal care activities including feeding, cleaning, and basic medical care.</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <h2 class="mb-4">Skills & Achievements</h2>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <h6>Technical Skills</h6>
+                        <span class="badge me-1 mb-1">HTML / CSS</span>
+                        <span class="badge me-1 mb-1">JavaScript</span>
+                        <span class="badge me-1 mb-1">Bootstrap</span>
+                        <span class="badge me-1 mb-1">Python</span>
+                        <span class="badge me-1 mb-1">SQL</span>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Tools & Technologies</h6>
+                        <span class="badge me-1 mb-1">Git</span>
+                        <span class="badge me-1 mb-1">GitHub</span>
+                        <span class="badge me-1 mb-1">VS Code</span>
+                        <span class="badge me-1 mb-1">Azure / Cloud</span>
+                        <span class="badge me-1 mb-1">AWS</span>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Achievements</h6>
+                        <ul class="mb-0 small">
+                            <li>Adapted quickly to professional IT environments and real-world workflows</li>
+                            <li>Contributed to the GO-LIVE 2.0 rollout of an Electronic Patient Record (EPR) system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HOBBIES SECTION ===== -->
+    <section id="hobbies" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <h2 class="mb-4">Hobbies & Interests</h2>
+                <p>Born in Latvia, moved to Ireland end of 2016</p>
+                <p>Outside of tech, I enjoy gaming, gym, fishing, and music. These help me balance my workload and stay creative.</p>
+                <p class="mb-2"><strong>Languages:</strong></p>
+                    <ul class="mb-0">
+                        <li><strong>Latvian:</strong> Native</li>
+                        <li><strong>English:</strong> Proficient</li>
+                        <li><strong>Russian:</strong> Basic (Reading & Writing)</li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <h2 class="mb-4">Contact Me</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" placeholder="Your name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="your@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="4" placeholder="Your message..."></textarea>
+                            </div>
+                            <button type="button" class="btn btn-light">Send (UI only)</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <p>You can also reach me directly using the contact information below.</p>
+
+                        <button class="btn btn-outline-light mb-3" data-bs-toggle="modal" data-bs-target="#contactModal">
+                            View Contact Details
+                        </button>
+
+                        <p class="small mb-0">
+                            I’m open to internship or graduate opportunities in cloud roles or IT support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT DETAILS MODAL ===== -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass-card-inner">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Information</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="d-grid gap-3">
+
+                        <!-- Email -->
+                        <div class="d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                            <div>
+                                <div class="fw-bold">Email</div>
+                                <a class="text-info text-decoration-underline" href="mailto:nikspaulis@gmail.com">
+                                    nikspaulis@gmail.com
+                                </a>
+                            </div>
+                            <button type="button" class="btn btn-outline-light btn-sm copy-btn" data-copy="nikspaulis@gmail.com">
+                                Copy
+                            </button>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                            <div>
+                                <div class="fw-bold">Phone</div>
+                                <a class="text-info text-decoration-underline" href="tel:+353892403392">
+                                    089 240 3392
+                                </a>
+                            </div>
+                            <button type="button" class="btn btn-outline-light btn-sm copy-btn" data-copy="+353892403392">
+                                Copy
+                            </button>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                            <div>
+                                <div class="fw-bold">LinkedIn</div>
+                                <a class="text-info text-decoration-underline" href="https://linkedin.com/in/npaulis" target="_blank" rel="noopener">
+                                    linkedin.com/in/npaulis
+                                </a>
+                            </div>
+                            <a class="btn btn-light btn-sm" href="https://linkedin.com/in/npaulis" target="_blank" rel="noopener">
+                                Open
+                            </a>
+                        </div>
+
+                        <!-- GitHub -->
+                        <div class="d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                            <div>
+                                <div class="fw-bold">GitHub</div>
+                                <a class="text-info text-decoration-underline" href="https://github.com/SparkPlug51" target="_blank" rel="noopener">
+                                    github.com/SparkPlug51
+                                </a>
+                            </div>
+                            <a class="btn btn-light btn-sm" href="https://github.com/SparkPlug51" target="_blank" rel="noopener">
+                                Open
+                            </a>
+                        </div>
+
+                        <!-- Status -->
+                        <div id="copyStatus" class="small text-white-50" aria-live="polite"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== PROJECT MODALS ===== -->
+
+    <!-- Project 1 -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-card-inner">
+                <div class="modal-header">
+                    <h5 class="modal-title">2nd Year Project | Electric Vehicle Charging Network</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Description:</strong> A team project showcasing a dynamic platform for managing and displaying electric vehicle charging data. The system stored crucial information
+                        based on electric vehicle charging, like the event time, the charger that got used, the customer that used it, and information on the start of the event and
+                        end of the event.
+                    </p>
+                    <p><strong>Key Features:</strong> A real-time event table that logs timestamps and information for each charger, updated via MQTT messaging protocol, to ensure data gets
+                        accurately posted to the database. The user-friendly front-end interface allows for seamless interaction with the database.
+                    </p>
+
+                    <p class="mb-2"><strong>Tech:</strong></p>
+                    <ul class="mb-0">
+                        <li><strong>Application Development:</strong> Visual Studio Code</li>
+                        <li><strong>Collaboration Tools:</strong> Azure DevOps</li>
+                        <li><strong>Front End:</strong> HTML, JavaScript, Bootstrap, CSS, Svelte</li>
+                        <li><strong>Database:</strong> Supabase</li>
+                        <li><strong>Other:</strong> Mosquitto MQTT broker</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-card-inner">
+                <div class="modal-header">
+                    <h5 class="modal-title">Internship | T-Pro Course Remake</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Description:</strong> I redeveloped a full T-Pro (dictation software) training course used by hospital staff—including doctors, nurses, and administrative personnel.
+                        This involved reviewing outdated material, producing new instructional videos, and rebuilding the entire course on Moodle to create a clearer, more engaging learning experience.
+                    </p>
+                    <p><strong>Key Features:</strong> The redesigned course provides a structured learning flow that guides users through T-Pro’s core functionalities with clarity and ease. It incorporates
+                        newly recorded instructional videos, updated step-by-step demonstrations, and reorganised learning modules that match real healthcare workflows.
+                    </p>
+
+                    <p class="mb-2"><strong>Tech:</strong></p>
+                    <ul class="mb-0">
+                        <li><strong>Course Development:</strong> Moodle</li>
+                        <li><strong>Screen Recording:</strong> OBS Studio, FlashBack</li>
+                        <li><strong>Video Editing:</strong> DaVinci Resolve, FlashBack</li>
+                        <li><strong>Content Creation:</strong> Articulate 360, Microsoft Office Suite</li>
+                        <li><strong>Platform Demonstration:</strong> T-Pro</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-card-inner">
+                <div class="modal-header">
+                    <h5 class="modal-title">4th Year Project | Disaster Recovery</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Description:</strong> Currently WiP, but will contain full information about my Year 4 Disaster Recovery project.</p>
+                    <p><strong>Key Features:</strong> WiP</p>
+                    <p class="mb-2"><strong>Tech:</strong></p>
+                    <ul class="mb-0">
+                        <li><strong>Software:</strong> Placeholder for future</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="text-center py-4 text-white-50">
+        © <span id="year"></span> Niks Paulis. All rights reserved.
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+ 
